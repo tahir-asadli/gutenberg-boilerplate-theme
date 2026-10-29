@@ -96,67 +96,67 @@
       "defaultFontSizes": false,
       "fontSizes": [
         {
-          "fluid": false,
-          "name": "2x Small",
-          "size": "0.875rem",
-          "slug": "xx-small"
+          "slug": "xx-small",
+          "name": "2X Small",
+          "size": "0.75rem",
+          "fluid": false
         },
         {
-          "fluid": false,
-          "name": "x Small",
+          "slug": "x-small",
+          "name": "X Small",
           "size": "0.875rem",
-          "slug": "x-small"
+          "fluid": false
         },
         {
-          "fluid": false,
+          "slug": "small",
           "name": "Small",
           "size": "1rem",
-          "slug": "small"
+          "fluid": false
         },
         {
-          "fluid": {
-            "max": "1.25rem",
-            "min": "1rem"
-          },
+          "slug": "medium",
           "name": "Medium",
           "size": "1.25rem",
-          "slug": "medium"
+          "fluid": {
+            "min": "1.125rem",
+            "max": "1.25rem"
+          }
         },
         {
-          "fluid": {
-            "max": "1.5rem",
-            "min": "1.875rem"
-          },
+          "slug": "large",
           "name": "Large",
-          "size": "1.5rem",
-          "slug": "large"
+          "size": "1.75rem",
+          "fluid": {
+            "min": "1.375rem",
+            "max": "1.75rem"
+          }
         },
         {
-          "fluid": {
-            "max": "1.875rem",
-            "min": "1.5rem"
-          },
+          "slug": "x-large",
           "name": "X Large",
-          "size": "1.875rem",
-          "slug": "x-large"
+          "size": "2.25rem",
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.25rem"
+          }
         },
         {
-          "fluid": {
-            "max": "2.5rem",
-            "min": "2rem"
-          },
+          "slug": "xx-large",
           "name": "2X Large",
-          "size": "2.5rem",
-          "slug": "xx-large"
+          "size": "3rem",
+          "fluid": {
+            "min": "2.125rem",
+            "max": "3rem"
+          }
         },
         {
-          "fluid": {
-            "max": "3.125rem",
-            "min": "3rem"
-          },
+          "slug": "xxx-large",
           "name": "3X Large",
-          "size": "3.125rem",
-          "slug": "xxx-large"
+          "size": "3.75rem",
+          "fluid": {
+            "min": "2.5rem",
+            "max": "3.75rem"
+          }
         }
       ],
       "fontFamilies": [
